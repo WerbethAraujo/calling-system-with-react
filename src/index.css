@@ -4,8 +4,19 @@
   margin: 0;
 }
 
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 button {
